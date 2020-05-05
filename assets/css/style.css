@@ -1,0 +1,731 @@
+/*-----------------------------------------------------------------------------
+[client] Screen Stylesheet
+
+version:   1.0
+date:      01/03/20
+author:    Success Ahon
+email:    success@gmail.com
+
+website:   arudovwen.me
+
+-----------------------------------------------------------------------------*/
+
+
+/* Import other stylesheets
+-----------------------------------------------------------------------------*/
+
+/* @import url("otherstylesheet.css"); */
+
+
+/* Remove margin, padding and border from everything
+-----------------------------------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+   
+    border: 0;
+   
+}
+html {
+      
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    transition: all .6s;
+  }
+  
+/* Styles for layout
+-----------------------------------------------------------------------------*/
+
+.clear {
+    clear: both;
+}
+
+
+
+.right {
+    float: right;
+}
+
+
+
+.left {
+    float: left;
+}
+
+/* Set up the document
+-----------------------------------------------------------------------------*/
+
+body {
+    font: 62.5%/1.5 "Lucida Grande", "Lucida Sans", Tahoma, Verdana, sans-serif;
+    color: #333;
+    text-align: center;
+    font-size: 15px;
+   
+}
+
+
+
+#wrapper {
+    width: 100%;
+    /* Set page width here - you can also use percentage */
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    background-color: #333;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+/* Typography
+-----------------------------------------------------------------------------*/
+
+h1 {
+    font-size: 2.2em;
+    /* Equivalent to 22pt */
+}
+
+h2 {
+    font-size: 2.0em;
+    /* Equivalent to 20pt */
+}
+
+h3 {
+    font-size: 1.8em;
+    /* Equivalent to 18pt */
+}
+
+h4 {
+    font-size: 1.6em;
+    /* Equivalent to 18pt */
+}
+
+h5 {
+    font-size: 1.4em;
+    /* Equivalent to 14pt */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    font-size: 15px;
+}
+
+p,
+q,
+cite {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em;
+    /* Equivalent to 12pt */
+}
+
+ul,
+ol,
+dl {
+    list-style: none;
+    font-size: 1.1em;
+    /* Equivalent to 12pt */
+}
+
+li,
+dd,
+dt {
+    font-size: 1.1em;
+    /* Equivalent to 12pt */
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+
+
+/* Navigation
+-----------------------------------------------------------------------------*/
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+
+
+
+/* Forms
+-----------------------------------------------------------------------------*/
+
+
+
+input.text {
+    padding: 3px;
+    border: 1px solid #999999;
+}
+
+
+/* Tables 
+-----------------------------------------------------------------------------*/
+
+
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: left;
+    font-weight: normal;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/* color and backgroud colors */
+
+.color_1 {
+    color: yellow;
+}
+
+.color_2 {
+    color: #333
+}
+
+.color_3 {
+    color: white;
+}
+
+.bg_1 {
+    background-color: yellow !important;
+}
+
+.bg_2 {
+    background-color: #333 !important;
+}
+
+.bg_3 {
+    background-color: white !important;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mr-2 {
+    margin-right: 2rem;
+}
+
+.mr-3 {
+    margin-right: 3rem;
+}
+
+.mb-3 {
+    margin-bottom: 3rem;
+}
+
+.px-2{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.px-3{
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+.pl-lg-50 {
+    padding-left: 50px;
+}
+
+/* Your template
+-----------------------------------------------------------------------------*/
+section {
+    width: 100%;
+    height: 100vh;
+  position: relative;
+}
+
+.mobile {
+    display: none !important;
+}
+
+.main_box {
+    height: 100%;
+    width: 75%;
+    margin-left: auto;
+    background-color: #f7f8fa;
+    float: right;
+}
+a{
+    text-align: center;
+}
+.sub_box {
+    height: 80%;
+    width: 50%;
+    margin-right: auto;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+
+}
+#sitename{
+    text-transform: capitalize;
+}
+.nav{
+    position: absolute;
+    top: 0;
+    width: 70%;
+    padding:5px 0 0 0
+    
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul li{
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    color: #777777;
+}
+.nav ul li a{
+    color: #777777;
+}
+.nav ul li a:hover{
+   color: #333;
+}
+
+.introduction {
+    width: 25%;
+    height: 100%;
+    color: #fff;
+    float: left;
+    text-align: center;
+}
+
+.intro {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title p{
+    font-size: 60px !important;;
+
+}
+
+.bottom_box {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bottom_box img {
+    width: 50%;
+    height: 50%;
+}
+
+.page_2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    clear: both;
+    overflow: hidden;
+}
+
+.page_2 .top_box {
+    width: 50%;
+    height: 200px;
+    background-color: #333;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.inline_text {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding:10px;
+}
+
+.down_box {
+    height: 60%;
+    width: 100%;
+    padding: 40px 100px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 24px;
+}
+
+.sub_title {
+    margin-bottom: 16px;
+}
+
+.about {
+    font-size: 15px;
+    width: 70%;
+}
+
+.years {
+    font-size: 15px;
+    width: 70%;
+}
+
+.specialization {
+    font-size: 15px;
+    width: 70%;
+}
+
+.side_box {
+    width: 15%;
+    height: 100%;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px 10px;
+}
+
+.right_box {
+    width: 80%;
+    height: 100%;
+    padding: 0px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    align-items: center;
+    justify-self: center;
+}
+
+.project_box {
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.project_box img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: all .6s;
+}
+.project_box:hover img{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.overlay{
+    display: none;
+}
+#sitename{
+    color:white;
+}
+.project_overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .7);
+    justify-content: center;
+    align-items: center;
+}
+.large_img{
+    width: 70%;
+    height: 70%;
+    position: relative;
+    background-color: #333;
+}
+.img_zoom{
+  width: 100%;
+  height: 80%;
+}
+.img_zoom img{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px
+}
+.text_zoom{
+    z-index: 22;
+    color: white;
+    margin-top: 20px;
+}
+p span a{
+    color: white;
+}
+.close{
+    position: absolute !important;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    background: white;
+}
+.box_text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+
+}
+.project_title{
+    font-weight: bold;
+}
+.bottom_top_box {
+    position: absolute;
+    bottom: 0;
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    left: 0;
+}
+
+.bottom_top_box img {
+    width: 50%;
+    height: 50%;
+}
+
+.main_project {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 30px;
+}
+
+.number {
+    color: yellow;
+    position: absolute;
+    font-size: 24px;
+    top: 0px;
+    left: 0px;
+    background-color: #333;
+    padding: 10px;
+}
+h3.title{
+    font-size: 42px;
+}
+@media(max-width:1024px) {
+ 
+    h3.title{
+        font-size: 36px;
+    }
+}
+
+@media(max-width:768px) {
+
+    .about {
+        font-size: 15px;
+        width: 75%;
+    }
+
+ 
+    .pl-md-25 {
+        padding-left: 25px;
+    }
+   h1{
+       font-size: 1.3em;
+   }
+   h3,h4{
+       font-size: 1em;
+   }
+    .introduction {
+        width: 30%;
+    }
+
+    .main_box {
+        width: 70%;
+    }
+
+    .title p{
+        font-size: 36px !important;;
+    }
+
+    .bottom_box,
+    .bottom_top_box {
+        width: 100px;
+        height: 100px;
+    }
+
+    .down_box {
+        padding: 40px 0 0 25px;
+    }
+
+p,ul,li{
+    font-size: 1em;
+}
+    .down_box {
+        height: 50%;
+        grid-row-gap: 24px;
+    }
+
+    .project_box {
+        height: 200px;
+    }
+  .project_box img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+  }
+    .main_project {
+        font-size: 28px;
+    }
+
+    .number {
+        font-size: 18px;
+    }
+
+    .right_box {
+        margin: auto;
+        height: 80%;
+    }
+
+    .icon {
+        width: 25px;
+    }
+    .page_2 .top_box{
+        height: 150px;
+    }
+    .years ul li{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media(max-width:425px) {
+    h3.title{
+        font-size: 24px;
+    }
+    .about {
+        font-size: 14.5px;
+        width: 75%;
+    }
+
+    .years {
+        width: 85%;
+    }
+
+  
+    .mobile {
+        display: block !important;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+
+    .introduction {
+        width: 60%;
+    }
+
+    .icon {
+        width: 20px;
+    }
+
+    .main_box {
+        width: 40%;
+    }
+
+    .sub_box {
+        width: 75%;
+    }
+
+    .title p{
+        font-size: 36px !important;
+    }
+
+    .side_box {
+        width: 35%;
+    }
+
+    .right_box {
+        width: 65%;
+        grid-template-columns: auto;
+        height: 90vh;
+        overflow-y: scroll;
+    }
+
+    .main_project {
+        flex-direction: column;
+        font-size: 24px;
+    }
+
+    .m-xs-0 {
+        margin: 0;
+    }
+    .page_2 .top_box{
+        height: 100px;
+    }
+    p,ul,li{
+        font-size: 14px;
+    }
+    .down_box {
+        padding: 30px 0 0 25px;
+        grid-row-gap: 20px;
+    }
+}
+@media(max-width:375px) {
+    h3.title{
+        font-size: 18px;
+    }
+    .bottom_box,
+    .bottom_top_box {
+        width: 80px;
+        height: 80px;
+    }
+    .page_2 .top_box{
+        height: 80px;
+    }
+    p{
+        font-size: 12.5px;
+    }
+
+
+}
