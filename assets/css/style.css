@@ -788,11 +788,15 @@ p,ul,li{
     {
         font-size: 12px;
     }
-    section{
-        height:90vh;
+    
+    #home,.my_home{
+        height:85vh !important;
     }
   .box_text{
       font-size: 14px;
+  }
+  .main_box img{
+      object-fit: cover;
   }
  
 
