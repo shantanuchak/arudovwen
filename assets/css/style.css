@@ -365,8 +365,8 @@ a{
     position: absolute;
     bottom: 0;
     right: 0;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     background-color: yellow;
     display: flex;
     justify-content: center;
@@ -453,7 +453,7 @@ a{
 .right_box {
     width: 80%;
     height: 100%;
-    padding: 0px 40px;
+    padding: 20px 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -461,6 +461,8 @@ a{
     grid-row-gap: 40px;
     align-items: center;
     justify-self: center;
+    height: 100vh;
+    overflow-y: scroll;
 }
 
 .project_box {
@@ -469,6 +471,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5px;
+    border: 3px solid white;;
 }
 
 
@@ -541,12 +545,13 @@ p span a{
 }
 .project_title{
     font-weight: bold;
+    color: yellow;
 }
 .bottom_top_box {
     position: absolute;
     bottom: 0;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     background-color: yellow;
     display: flex;
     justify-content: center;
@@ -732,8 +737,7 @@ p,ul,li{
     .right_box {
         width: 65%;
         grid-template-columns: auto;
-        height: 90vh;
-        overflow-y: scroll;
+      
     }
 
     .main_project {
