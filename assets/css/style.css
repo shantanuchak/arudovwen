@@ -270,6 +270,7 @@ section {
 }
 #overlay{
     transition: all .4s;
+    display: none;
 }
 .animated.slower {
     -webkit-animation-duration: 6s;
@@ -715,7 +716,7 @@ p,ul,li{
     }
 
     .large_img{
-        width: 95%;
+        width: 85%;
         height: auto;
         
      
