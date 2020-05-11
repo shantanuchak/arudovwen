@@ -24,7 +24,7 @@ Array.from(image).forEach((element) => {
         imagename.href = 'https://ims-ministry.herokuapp.com'
     }
     if (el.srcElement.alt == "ilc") {
-        imagename.href = 'https://ilc-center.herokuapp.com'
+        imagename.href = 'https://isl-center.herokuapp.com'
     }
     if (el.srcElement.alt == "Memory match website") {
         imagename.href = 'https://brolik-pms.herokuapp.com'
