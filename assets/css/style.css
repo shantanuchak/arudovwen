@@ -512,6 +512,7 @@ a{
     position: relative;
     background-color: #333;
     border-radius: 7px;
+    padding: 15px;
 }
 .img_zoom{
   width: 100%;
@@ -613,7 +614,14 @@ h3.title{
     .top_box .text-left{
         margin-left: 25px;
     }
- 
+    .large_img{
+        width: 85%;
+        height: 85%;
+     
+    }
+   .name{
+       font-size: 24px;
+   }
     .pl-md-25 {
         padding-left: 25px;
     }
@@ -706,7 +714,22 @@ p,ul,li{
         width: 85%;
     }
 
-  
+    .large_img{
+        width: 95%;
+        height: auto;
+        
+     
+    }
+    .logo{
+        width: 60px;
+    }
+    .intro{
+        padding: 10px 0;
+        height: auto;
+    }
+    .name{
+        font-size: 20px;
+    }
     .mobile {
         display: block !important;
     }
